@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink-900 text-offwhite antialiased;
+  }
+
+  ::selection {
+    @apply bg-brand-400/30 text-offwhite;
+  }
+
+  /* Foco visível e consistente para navegação por teclado (acessibilidade) */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-400/70 ring-offset-2 ring-offset-ink-900;
+  }
+}
