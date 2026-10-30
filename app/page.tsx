@@ -139,9 +139,7 @@ export default function HomePage() {
               segurado, do acidente e da sequela.
             </p>
             <ButtonLink
-              href={whatsappHref(
-                "Olá, sofri um acidente e gostaria de saber se tenho direito ao auxílio-acidente."
-              )}
+              href={whatsappHref()}
               variant="primary"
               target="_blank"
               rel="noopener noreferrer"

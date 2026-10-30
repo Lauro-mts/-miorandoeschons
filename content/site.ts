@@ -19,7 +19,7 @@ export const SITE = {
   whatsappNumber: "5554923670072",
   whatsappDisplay: "+55 54 92367-0072",
   whatsappDefaultMessage:
-    "Olá, vim pelo site e gostaria de falar sobre o auxílio-acidente.",
+    "Olá, vim pelo site e gostaria de falar sobre o meu caso.",
 
   attendanceHours: "Atendimento online pelo WhatsApp",
   attendanceNote:
