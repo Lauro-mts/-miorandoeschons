@@ -44,7 +44,7 @@ export function FloatingOverlay() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Falar com o escritório pelo WhatsApp"
-        className="m-6 flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-brand-600 text-white shadow-lg shadow-black/40 transition-transform duration-300 hover:scale-105 hover:bg-brand-500 sm:m-8"
+        className="m-6 flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/40 transition-transform duration-300 hover:scale-105 hover:bg-[#1ebe5d] sm:m-8"
       >
         <WhatsAppIcon className="h-7 w-7" />
       </a>
