@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FloatingOverlay } from "@/components/FloatingOverlay";
+import { MetaPixel } from "@/components/MetaPixel";
 import { SITE } from "@/content/site";
 
 const heading = Playfair_Display({
@@ -69,6 +70,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <FloatingOverlay />
+        <MetaPixel />
       </body>
     </html>
   );
